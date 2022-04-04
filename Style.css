@@ -1,0 +1,66 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-weight: bold; 
+}
+body{
+	font-family: "Poppins",sans-serif;
+	letter-spacing: 2px;
+    background-color: #b0bfff;
+}
+#index_wrapper{
+	width: 100%;
+}
+#asquare{
+	color: #1754c5;
+}
+h2{
+    padding: 30px;
+	text-align: center;
+    font-size: 25px;
+}
+.div_form{
+    text-align: center;
+    justify-self: center;
+}
+.div_form form{
+    padding: 20px;
+    text-align: center;
+    background-color: #b0bfff;
+}
+form span{
+    font-size: 20px;
+}
+form input{
+    background-color: #b0bfff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #1754c5;
+    width: 300px;
+    color: #000;
+}
+button{
+    background-color: #1754c5;
+    color: #fff;
+    width: 300px;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#restorepass{
+    color: #1754c5;
+    text-decoration: underline;
+}
+@media (max-width: 500px) {
+    h2{
+        font-size: 25px;
+    }
+    form input,button{
+        width: 220px;
+    }
+}

@@ -1,0 +1,151 @@
+<html dir="ltr" lang="en" xml:lang="en">
+    <head>
+	    <title>ASQUARE | Google Adsense | Get Started With Google Adsense</title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="myStyle.css"/>
+        <link href="C:\xampp\htdocs\ASQUARE\uicons-regular-rounded\css\uicons-regular-rounded.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+        <script type="text/javascript" src="scriptfile.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4179220928950423"
+     crossorigin="anonymous"></script>
+	</head>
+    <body>
+        <section class="wrapper">
+            <main class="sidebar">
+                <h1 class="logo">
+                    <span id="site_logo">AA</span>
+                    <span id="earnit">ASQUARE</span>
+                </h1>
+                <ul>
+                    <li class="guide"><a href="GuideAdsense.html"><span>Guide</span></a></li>
+                    <li class="start" id="actif"><a href="Start.html"><span>Get Started</span></a></li>
+                </ul>
+
+                <div class="social_media">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+            </main>
+            <main class="main_content">
+                <div class="header">
+                    <nav>
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fa fa-align-center"></i>
+                        </label>
+                        <label for="check" class="crossbtn">
+                            <i class="fa fa-arrow-left"></i>
+                        </label>
+                        <ul>
+                            <li><a href="index.html" class="active"><i class="fa fa-home"></i></a></li>
+                            <li><a href="googleAdsense.html" class="active">Google AdSense</a></li>
+                            <li><a href="POD.html">POD</a></li>
+                            <li><a href="affiliate.html">Affiliate Marketing</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <br><br><br>
+                <div class="link_generator">
+                    <p>
+                        <a href="googleAdsense.html">Google AdSense</a>
+                        >
+                        <a href="Start.html">Get Started With Google AdSense</a>
+                    </p>
+                </div>
+                <div class="info">
+                    <main class="slider">
+                        <article>
+                            <img name="slide">
+                            <script type="text/javascript">
+                                var i = 0;
+                                var images = [];
+                                var time = 5000;
+                                //image list
+                                images[0] = 'images/revenue.svg';
+                                images[1] = 'images/winners.svg';
+                                images[2] = 'images/web_dev.svg';
+                                images[3] = 'images/make_rain.svg';
+                                //change imege
+                                function changeImg(){
+                                    document.slide.src = images[i];
+        
+                                    if(i < images.length - 1){
+                                        i++;
+                                    }else{
+                                        i = 0;
+                                    }
+        
+                                    setTimeout("changeImg()", time);
+                                }
+                                window.onload = changeImg;
+                            </script>
+                        </article>
+                    </main>
+                    <div class="container" id="container">
+                        <div>
+                            <h1>get started with google adsense</h1>
+                            <div>
+                                <div>
+                                    <h2>Google Account</h2>
+                                    <p>
+                                        If you use Gmail or any other Google service, 
+                                        you already have a Google Account. Otherwise, 
+                                        you can register with just one click, and we will 
+                                        help you create your account. You will then be 
+                                        able to access AdSense and all Google services.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <h2>Telephone Number And Mailing Address</h2>
+                                    <p>
+                                        To receive your payments, provide the phone 
+                                        number and mailing address associated with your bank account.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <h2>Connect Your Site And AdSense</h2>
+                                    <p>
+                                        Just add a code snippet to your site, 
+                                        and Google takes care of the rest. You 
+                                        can thus devote your time to the development of your activity.
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <a href="https://www.google.com/adsense/start/">Start Today !</a>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="reg">
+                    <p>
+                        JOIN ASQUARE NOW & DISCOVER THE EASIEST WAYS TO MAKE MONEY ONLINE
+                    </p>
+                    <form action="connect.php" method="post" onsubmit = "validateForm()" class="field" id="field">
+                        <article>
+                            <img src="images/fi-rr-square-pro.png" alt="ASQURE">
+                            <div>
+                                <input type="email" name="email" id="email" placeholder="Enter Your Email Adress" onchange="validateEmail(email)">
+                            </div>
+                        </article>
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </aside>
+
+                <aside id="privacy">
+                    <h5><span style="color: #1754c5">ASQUARE</span>&copy2021. All rights reserved</h5>
+                </aside>
+
+            </main>
+        </section>
+    </body>
+</html>
